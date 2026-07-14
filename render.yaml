@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: contacts-manager-backend
-    env: java
-    rootDir: ContactApi backend
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
-    plan: free
